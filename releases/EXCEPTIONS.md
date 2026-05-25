@@ -69,12 +69,12 @@ Once an exception is approved, it should be broadcast broadly: send an email wit
 
 ### Enhancements Lead
 
-Starting with the v1.36 release cycle, exception requests are tracked on the release's Enhancements Tracking Board using the `Exception Requests` view (e.g., [v1.36 Exception Requests view](https://github.com/orgs/kubernetes/projects/241/views/7)) instead of an `exceptions.yaml` file in the release directory.
+Starting with the v1.36 release cycle, exception requests are tracked on the release's Release Tracking Board using the `Exception Requests` view (e.g., [v1.36 Exception Requests view](https://github.com/orgs/kubernetes/projects/241/views/7)) instead of an `exceptions.yaml` file in the release directory.
 
-When an exception request comes in, the Enhancements Lead is responsible for:
+When an exception request comes in, the Enhancements Lead, Release Lead Shadows, or the Release Lead are responsible for:
 
-- Setting the `Exception Request Type` field on the KEP in the Enhancements Tracking Board so it surfaces in the `Exception Requests` view.
+- Setting the `Exception Request Type` field on the KEP in the Release Tracking Board so it surfaces in the `Exception Requests` view.
 - Populating the request metadata (links to the Google Groups thread, Slack thread, related PRs, requested time, request/decision dates, and final status).
-- Assigning an Enhancements Lead shadow or Release Lead shadow to follow up.
+- Assigning an Enhancements shadow or Release Lead shadow to follow up.
 
 For the detailed workflow, including how to handle KEPs requesting exceptions for multiple freezes, see the [Exceptions section of the Enhancements Lead handbook](/release-team/role-handbooks/enhancements/README.md#exceptions).
