@@ -411,7 +411,7 @@ The `Exception Requests` view filters on `has:exception-request-type` and surfac
 |                Additional Time | The additional time requested by the enhancement owner, in calendar days.                                                    |
 |         Exception Request Date | Date (UTC) the exception was requested.                                                                                            |
 |        Exception Decision Date | Date (UTC) the Release Team approved or rejected the exception.                                                                    |
-|                Exception Liaison | The Enhancements Lead shadow or Release Lead shadow assigned to follow up on the request.                                    |
+|                Exception Liaison | The Release Team member (Enhancements Lead, Release Lead, or Release Lead shadow) assigned to follow up on the request.                                    |
 |         Exception Request Notes | Notes from the assigned liaison about the request (context, follow-up items, links, etc.) that may be useful to the KEP owner or other Release Team members. |
 
 #### Adding a new exception request
@@ -423,7 +423,7 @@ When an exception request email comes in:
 2. **Set the `Exception Request Type`** field on the KEP to the appropriate freeze (`PRR Freeze`, `Enhancements Freeze`, `Code and Test Freeze`, or `Docs Freeze`).
 3. **Set the `Status` field on the `Enhancements` view to `Exception Pending`** to indicate the request is open and awaiting a Release Team decision.
 4. As soon as `Exception Request Type` has a value, the KEP automatically appears in the `Exception Requests` view. Switch to that view, set `Exception Status` to `In Review`, and fill in the remaining fields (`Exception Request Link`, `Exception Request Slack Thread`, `Exception Related PRs`, `Additional Time`, `Exception Request Date`, etc.).
-5. Assign the request to the Enhancements Lead or a Release Lead shadow via the `Exception Liaison` field for follow-up on the Slack thread.
+5. Assign the request to the Enhancements Lead, Release Lead or a Release Lead shadow via the `Exception Liaison` field for follow-up on the Slack thread.
 
 ##### Updating the KEP status through the exception lifecycle
 

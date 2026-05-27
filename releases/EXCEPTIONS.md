@@ -40,7 +40,9 @@ Email them to:
 - release-team@kubernetes.io
 - kubernetes-sig-release@googlegroups.com
 
-[You should have *very high confidence* on the “additional time needed” number - we will not grant multiple exceptions for a enhancement. The same goes for over-estimating on the time needed. If the exception request is rejected on the basis that the asking time is too high, we will not re-evaluate if the asking time decreases.]
+You should have *very high confidence* on the "additional time needed" number. The Release Team will not grant multiple exceptions for the **same** freeze for a single enhancement — once an exception has been approved or rejected for a given freeze, the decision is final and additional time cannot be requested for that freeze. The same goes for over-estimating on the time needed: if the exception request is rejected on the basis that the asking time is too high, we will not re-evaluate if the asking time decreases.
+
+A KEP may still request separate exceptions at different freeze points across the release cycle (e.g. a PRR Freeze exception and, later, a Code/Test Freeze exception), each evaluated on its own merits. The [combined PRR + Enhancements Freeze request described below](#exceptions-after-prr-freeze) remains the one case where a single request may cover two freezes.
 
 #### Exceptions after PRR freeze:
 - Requests for exceptions must be submitted within 3 days after PRR freeze. You may file an exception request in advance if you know your KEP will miss the PRR freeze deadline.
@@ -67,7 +69,7 @@ Information about the current release can be found in the relevant release direc
 
 Once an exception is approved, it should be broadcast broadly: send an email with the data and approval to kubernetes-dev@ and your SIG group, then follow up with a reply to that email once the enhancement is completed.
 
-### Enhancements Lead
+### Tracking Exception Requests
 
 Starting with the v1.36 release cycle, exception requests are tracked on the release's Release Tracking Board using the `Exception Requests` view (e.g., [v1.36 Exception Requests view](https://github.com/orgs/kubernetes/projects/241/views/7)) instead of an `exceptions.yaml` file in the release directory.
 
@@ -75,6 +77,6 @@ When an exception request comes in, the Enhancements Lead, Release Lead Shadows,
 
 - Setting the `Exception Request Type` field on the KEP in the Release Tracking Board so it surfaces in the `Exception Requests` view.
 - Populating the request metadata (links to the Google Groups thread, Slack thread, related PRs, requested time, request/decision dates, and final status).
-- Assigning an Enhancements shadow or Release Lead shadow to follow up.
+- Assigning a Release Team member to follow up.
 
 For the detailed workflow, including how to handle KEPs requesting exceptions for multiple freezes, see the [Exceptions section of the Enhancements Lead handbook](/release-team/role-handbooks/enhancements/README.md#exceptions).
