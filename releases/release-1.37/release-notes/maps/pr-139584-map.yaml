@@ -1,0 +1,13 @@
+pr: 139584
+pr_body: ""
+releasenote:
+  text: |-
+    Updated the Go version used to build Kubernetes to `v1.26.4`.
+  sigs:
+  - release
+  - testing
+  kinds:
+  - feature
+  areas:
+  - test
+  - release-eng

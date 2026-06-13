@@ -1,0 +1,14 @@
+pr: 117119
+pr_body: ""
+releasenote:
+  text: |-
+    ACTION REQUIRED: Fixed `eventRecordQPS` handling in `kubelet` configuration to treat 0 as unlimited (no rate limit), aligning behavior with the documentation. Users relying on the previous default behavior should explicitly set a non-zero value (for example, 50).
+  sigs:
+  - api-machinery
+  - auth
+  - node
+  kinds:
+  - bug
+  areas:
+  - kubelet
+  - code-generation

@@ -1,0 +1,15 @@
+pr: 136894
+pr_body: ""
+releasenote:
+  text: |-
+    Promoted the `kube-apiserver` webhook metrics `apiserver_webhooks_x509_missing_san_total` and `apiserver_webhooks_x509_insecure_sha1_total` to Beta and updated their documentation.
+  sigs:
+  - api-machinery
+  - instrumentation
+  - testing
+  kinds:
+  - feature
+  areas:
+  - test
+  - apiserver
+  - stable-metrics

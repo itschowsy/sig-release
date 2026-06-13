@@ -1,0 +1,12 @@
+pr: 138939
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Fixed a panic in `kubeadm` PKI key loading when the private key type and public key type mismatch.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - bug
+  - cleanup
+  areas:
+  - kubeadm

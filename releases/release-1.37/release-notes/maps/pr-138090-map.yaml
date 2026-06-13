@@ -1,0 +1,11 @@
+pr: 138090
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Added the `kubeproxydaemonset` patch target to allow patching the kube-proxy DaemonSet during `kubeadm init` and `kubeadm upgrade`, consistent with the existing `corednsdeployment` patch target.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - feature
+  areas:
+  - kubeadm

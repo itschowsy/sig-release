@@ -1,0 +1,13 @@
+pr: 139217
+pr_body: ""
+releasenote:
+  text: |-
+    Removed `RelaxedDNSSearchValidation` feature gate.
+  sigs:
+  - apps
+  - node
+  - testing
+  kinds:
+  - cleanup
+  areas:
+  - test

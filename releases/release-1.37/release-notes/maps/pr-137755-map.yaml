@@ -1,0 +1,14 @@
+pr: 137755
+pr_body: ""
+releasenote:
+  text: |-
+    The `SidecarContainers` feature gate, unconditionally enabled since `v1.33`, is removed.
+  sigs:
+  - apps
+  - node
+  - scheduling
+  - testing
+  kinds:
+  - cleanup
+  areas:
+  - test

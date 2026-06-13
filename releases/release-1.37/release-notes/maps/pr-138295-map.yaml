@@ -1,0 +1,9 @@
+pr: 138295
+pr_body: ""
+releasenote:
+  text: |-
+    Changed `client-go` `RetryWatcher` to log 410 Gone (resource expired) errors at debug verbosity (`V(4)`) instead of ERROR level during watch establishment.
+  sigs:
+  - api-machinery
+  kinds:
+  - bug

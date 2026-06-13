@@ -1,0 +1,14 @@
+pr: 137072
+pr_body: ""
+releasenote:
+  text: |-
+    Promoted `serviceaccount_legacy_tokens_total`, `serviceaccount_stale_tokens_total` and `serviceaccount_valid_tokens_total` to Beta.
+  sigs:
+  - auth
+  - instrumentation
+  - testing
+  kinds:
+  - feature
+  areas:
+  - test
+  - stable-metrics

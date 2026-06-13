@@ -1,0 +1,13 @@
+pr: 138214
+pr_body: ""
+releasenote:
+  text: |-
+    Improved error reporting when invoking `kubectl exec`.
+  sigs:
+  - cli
+  - testing
+  kinds:
+  - bug
+  areas:
+  - test
+  - kubectl

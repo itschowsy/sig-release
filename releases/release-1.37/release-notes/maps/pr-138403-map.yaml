@@ -1,0 +1,11 @@
+pr: 138403
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Changed the etcd cluster status check to use a quorum approach instead of considering the health of all members, so the check no longer fails when there are sufficient healthy voting members.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - bug
+  areas:
+  - kubeadm

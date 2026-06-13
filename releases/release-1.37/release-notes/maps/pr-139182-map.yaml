@@ -1,0 +1,9 @@
+pr: 139182
+pr_body: ""
+releasenote:
+  text: |-
+    Surfaced the error reason when invalid service CIDRs are configured.
+  sigs:
+  - network
+  kinds:
+  - bug

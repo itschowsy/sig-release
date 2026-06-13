@@ -1,0 +1,14 @@
+pr: 136709
+pr_body: ""
+releasenote:
+  text: |-
+    Improved CEL error messages in Dynamic Resource Allocation to provide guidance when accessing non-existent device attributes. Error messages now link to documentation on handling optional fields using `orValue()` and `has()`.
+  sigs:
+  - api-machinery
+  - node
+  - scheduling
+  kinds:
+  - documentation
+  - api-change
+  areas:
+  - code-generation

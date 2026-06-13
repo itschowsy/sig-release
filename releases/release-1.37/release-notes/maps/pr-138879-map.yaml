@@ -1,0 +1,12 @@
+pr: 138879
+pr_body: ""
+releasenote:
+  text: |-
+    Used a stable `curl` download for the Windows busybox testing image.
+  sigs:
+  - testing
+  - windows
+  kinds:
+  - bug
+  areas:
+  - test

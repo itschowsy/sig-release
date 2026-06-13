@@ -1,0 +1,12 @@
+pr: 138957
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Used a dedicated ClusterRole `system:kubelet-api-admin` for the `kube-apiserver` `kubelet` client.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - bug
+  - cleanup
+  areas:
+  - kubeadm

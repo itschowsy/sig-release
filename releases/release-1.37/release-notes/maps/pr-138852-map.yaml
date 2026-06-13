@@ -1,0 +1,11 @@
+pr: 138852
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Changed cluster-info discovery over HTTPS to check the HTTP response status code, so a non-200 response produces a clear error instead of a confusing kubeconfig parse failure.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - bug
+  areas:
+  - kubeadm

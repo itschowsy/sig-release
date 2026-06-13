@@ -1,0 +1,28 @@
+pr: 138393
+pr_body: ""
+releasenote:
+  text: |-
+    Updated the etcd client library to `v3.6.10`.
+  sigs:
+  - api-machinery
+  - architecture
+  - auth
+  - cli
+  - cloud-provider
+  - cluster-lifecycle
+  - etcd
+  - instrumentation
+  - network
+  - node
+  - scheduling
+  - storage
+  kinds:
+  - dependency
+  areas:
+  - kubelet
+  - kube-proxy
+  - apiserver
+  - kubectl
+  - cloudprovider
+  - code-generation
+  - dependency

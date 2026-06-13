@@ -1,0 +1,11 @@
+pr: 138692
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Skipped LocalAPIEndpoint defaulting on `kubeadm join` for worker nodes.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - bug
+  areas:
+  - kubeadm

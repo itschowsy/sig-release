@@ -1,0 +1,12 @@
+pr: 138001
+pr_body: ""
+releasenote:
+  text: |-
+    Removed the `KubeletMinVersion` label from the DRA e2e test covering multiple ResourceClaims.
+  sigs:
+  - node
+  - testing
+  kinds:
+  - cleanup
+  areas:
+  - test

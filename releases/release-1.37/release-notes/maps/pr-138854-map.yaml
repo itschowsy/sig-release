@@ -1,0 +1,11 @@
+pr: 138854
+pr_body: ""
+releasenote:
+  text: |-
+    `kubelet`: Fixed a goroutine leak on shutdown by making the eviction manager's monitoring goroutine exit promptly when the `kubelet` context is cancelled.
+  sigs:
+  - node
+  kinds:
+  - bug
+  areas:
+  - kubelet

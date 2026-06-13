@@ -1,0 +1,17 @@
+pr: 138392
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Updated the supported etcd version to `v3.6.10` for supported control plane versions `v1.34`, `v1.35`, and `v1.36`.
+  sigs:
+  - api-machinery
+  - cloud-provider
+  - cluster-lifecycle
+  - etcd
+  - testing
+  kinds:
+  - cleanup
+  areas:
+  - test
+  - provider/gcp
+  - kubeadm

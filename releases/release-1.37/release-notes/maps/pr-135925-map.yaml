@@ -1,0 +1,9 @@
+pr: 135925
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed a nil pointer dereference in `client-go` event key generation by adding nil checks in `getEventKey`, `getSpamKey`, and `EventAggregatorByReasonFunc`, preventing panics when processing nil events.
+  sigs:
+  - api-machinery
+  kinds:
+  - documentation

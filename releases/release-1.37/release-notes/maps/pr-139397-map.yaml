@@ -1,0 +1,12 @@
+pr: 139397
+pr_body: ""
+releasenote:
+  text: |-
+    Added the `KubeProxyIPVS` feature gate in preparation for deactivating and then removing the `ipvs` mode of `kube-proxy`.
+  sigs:
+  - network
+  kinds:
+  - feature
+  areas:
+  - kube-proxy
+  - ipvs

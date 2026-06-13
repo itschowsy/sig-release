@@ -1,0 +1,11 @@
+pr: 138088
+pr_body: ""
+releasenote:
+  text: |-
+    Changed the `kubelet` to enforce explicit HTTP method restrictions for logs-related endpoints. Read-only `kubelet` server endpoints reject non-GET methods with 405. NodeLogQuery allows only GET and POST and rejects other methods with 405.
+  sigs:
+  - node
+  kinds:
+  - bug
+  areas:
+  - kubelet

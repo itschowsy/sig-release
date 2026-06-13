@@ -1,0 +1,13 @@
+pr: 131176
+pr_body: ""
+releasenote:
+  text: |-
+    Updated Japanese translation for `kubectl`.
+  sigs:
+  - cli
+  - testing
+  kinds:
+  - documentation
+  areas:
+  - test
+  - kubectl

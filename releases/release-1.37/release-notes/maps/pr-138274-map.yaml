@@ -1,0 +1,9 @@
+pr: 138274
+pr_body: ""
+releasenote:
+  text: |-
+    `kube-scheduler`: Added `PlacementCycleState` to the scheduling framework, providing per-placement state to `PlacementScore` plugins under the Alpha `TopologyAwareWorkloadScheduling` feature gate.
+  sigs:
+  - scheduling
+  kinds:
+  - feature

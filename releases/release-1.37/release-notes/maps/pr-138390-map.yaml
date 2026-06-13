@@ -1,0 +1,11 @@
+pr: 138390
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Fixed MemberPromote to skip the etcd promote API call when the member is already a voting member, avoiding unnecessary retries and timeout.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - bug
+  areas:
+  - kubeadm
