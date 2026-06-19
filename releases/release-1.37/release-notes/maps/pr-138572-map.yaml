@@ -1,0 +1,23 @@
+pr: 138572
+pr_body: ""
+releasenote:
+  text: |-
+    Converted the `DisruptionMode` enum field to a struct to support future extensibility. Promoted the `scheduling.k8s.io` API group from `v1alpha2` to `v1alpha3` and dropped `v1alpha2` entirely.
+    ACTION REQUIRED: Remove all `v1alpha2` objects from the `kube-apiserver` before performing the cluster update.
+  sigs:
+  - api-machinery
+  - apps
+  - cli
+  - etcd
+  - node
+  - scheduling
+  - testing
+  kinds:
+  - api-change
+  - feature
+  areas:
+  - test
+  - kubelet
+  - apiserver
+  - kubectl
+  - code-generation

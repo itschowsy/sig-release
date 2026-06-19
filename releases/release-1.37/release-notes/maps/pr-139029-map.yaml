@@ -1,0 +1,10 @@
+pr: 139029
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed incorrect error message formatting in the HPA controller when object metric retrieval fails. Error messages correctly display the metric name, object kind, namespace, object name, and the underlying error. Also improved error wrapping across the HPA controller to use `%w` instead of `%v`, enabling proper error chain inspection.
+  sigs:
+  - apps
+  - autoscaling
+  kinds:
+  - bug

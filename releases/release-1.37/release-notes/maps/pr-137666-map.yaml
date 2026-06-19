@@ -1,0 +1,9 @@
+pr: 137666
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed a regression in Kubernetes `v1.35` where, with a Parallel Pod management policy, unavailable Pods from an older revision were incorrectly counted toward the `maxUnavailable` budget.
+  sigs:
+  - apps
+  kinds:
+  - bug

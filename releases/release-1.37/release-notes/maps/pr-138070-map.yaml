@@ -1,0 +1,9 @@
+pr: 138070
+pr_body: ""
+releasenote:
+  text: |-
+    Deprecated `MultiLock`, `UnknownLeader`, and `ConcatRawRecord` in client-go leader election resourcelock package.
+  sigs:
+  - api-machinery
+  kinds:
+  - cleanup

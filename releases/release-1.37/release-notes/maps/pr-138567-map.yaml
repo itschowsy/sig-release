@@ -1,0 +1,14 @@
+pr: 138567
+pr_body: ""
+releasenote:
+  text: |-
+    `kube-scheduler`: Added support for PodGroups in the scheduling queue. The active, backoff, and unschedulable queues were abstracted to store `QueuedEntityInfo` (handling either individual pods or pod groups).
+  sigs:
+  - instrumentation
+  - scheduling
+  - testing
+  kinds:
+  - feature
+  areas:
+  - test
+  - stable-metrics

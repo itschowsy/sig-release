@@ -1,0 +1,13 @@
+pr: 138903
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed a regression where the `kubelet` did not clear stale cgroup v2 `memory.min` and `memory.low` values when the `MemoryQoS` feature gate was disabled after being previously enabled.
+  sigs:
+  - node
+  - testing
+  kinds:
+  - regression
+  areas:
+  - test
+  - kubelet

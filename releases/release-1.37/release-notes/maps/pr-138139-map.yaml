@@ -1,0 +1,11 @@
+pr: 138139
+pr_body: ""
+releasenote:
+  text: |-
+    `kubelet`: Set cgroup v2 `memory.high` for BestEffort containers when `MemoryQoS` is enabled (per KEP-2570).
+  sigs:
+  - node
+  kinds:
+  - bug
+  areas:
+  - kubelet

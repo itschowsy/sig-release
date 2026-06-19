@@ -1,0 +1,14 @@
+pr: 138228
+pr_body: ""
+releasenote:
+  text: |-
+    Generated `metadata.generation` and `status.observedGeneration` fields in HorizontalPodAutoscaler resources.
+  sigs:
+  - api-machinery
+  - apps
+  - autoscaling
+  - testing
+  kinds:
+  - bug
+  areas:
+  - test

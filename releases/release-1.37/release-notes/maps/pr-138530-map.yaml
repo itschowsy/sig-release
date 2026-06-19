@@ -1,0 +1,9 @@
+pr: 138530
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed `DecodeMetadataFromStream` to skip only entries with unknown API versions and return errors for decode failures or malformed metadata in supported versions, preventing silent data loss.
+  sigs:
+  - node
+  kinds:
+  - bug

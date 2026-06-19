@@ -1,0 +1,11 @@
+pr: 138094
+pr_body: ""
+releasenote:
+  text: |-
+    Changed `kubectl get` to return an error when `--label-columns` is used with custom-columns output.
+  sigs:
+  - cli
+  kinds:
+  - bug
+  areas:
+  - kubectl

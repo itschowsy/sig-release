@@ -1,0 +1,12 @@
+pr: 138645
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Removed the `NodeLocalCRISocket` feature gate which graduated to GA and was locked to enabled by default in a previous release.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - cleanup
+  - feature
+  areas:
+  - kubeadm

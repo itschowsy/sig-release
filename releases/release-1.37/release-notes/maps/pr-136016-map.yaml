@@ -1,0 +1,11 @@
+pr: 136016
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Removed the `v1beta3` API which was deprecated since `v1.31`. The `v1.35` `kubeadm` binary can be used to migrate to `v1beta4` by using the command `kubeadm config migrate`. Additionally, removed the `PublicKeysECDSA` kubeadm-specific feature gate which was only kept for backwards compatibility with `v1beta3`. The support for ECDSA keys was added as part of the `v1beta4` field `ClusterConfiguration.EncryptionAlgorithm`. Added a placeholder `v1` API that is a copy of `v1beta4` and is flagged as experimental and cannot be used yet.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - cleanup
+  areas:
+  - kubeadm

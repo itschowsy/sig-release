@@ -1,0 +1,10 @@
+pr: 139418
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed a bug when the `GenericWorkload` feature gate is enabled that could prevent Pods in the same PodGroup sharing the same ResourceClaim from successfully scheduling.
+  sigs:
+  - node
+  - scheduling
+  kinds:
+  - bug

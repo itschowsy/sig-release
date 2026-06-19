@@ -1,0 +1,13 @@
+pr: 138451
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed an issue where the StatefulSet controller's skip metrics were not properly registered.
+  sigs:
+  - api-machinery
+  - apps
+  - testing
+  kinds:
+  - bug
+  areas:
+  - test

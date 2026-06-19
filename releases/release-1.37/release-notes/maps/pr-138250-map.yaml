@@ -1,0 +1,11 @@
+pr: 138250
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Changed the preflight `Port-xx` checks for `kube-apiserver`, `kube-scheduler`, `kube-controller-manager`, and etcd to bind to the address configured in the kubeadm config for the respective component (via the `localAPIEndpoint.address` field or the `--bind-address` extraArgs override), instead of calling `net.Listen()` without an address (which binds to all available unicast and anycast IP addresses for the port).
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - feature
+  areas:
+  - kubeadm

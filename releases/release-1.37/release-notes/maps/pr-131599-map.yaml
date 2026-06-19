@@ -1,0 +1,10 @@
+pr: 131599
+pr_body: ""
+releasenote:
+  text: |-
+    Added GROUP, SCOPE, VERSIONS, and CREATED AT columns to `kubectl get crd` output, alongside the existing NAME column.
+    The new columns provide additional information about the Custom Resource Definitions (CRDs) in a more concise and organized manner, making it easier for users to understand the details of their CRDs at a glance.
+  sigs:
+  - api-machinery
+  kinds:
+  - feature

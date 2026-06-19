@@ -1,0 +1,17 @@
+pr: 138747
+pr_body: ""
+releasenote:
+  text: |-
+    Updated the etcd client library to `v3.6.11`.
+  sigs:
+  - api-machinery
+  - auth
+  - cloud-provider
+  - node
+  - scheduling
+  kinds:
+  - cleanup
+  areas:
+  - apiserver
+  - cloudprovider
+  - dependency

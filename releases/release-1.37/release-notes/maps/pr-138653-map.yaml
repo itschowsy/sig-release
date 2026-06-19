@@ -1,0 +1,16 @@
+pr: 138653
+pr_body: ""
+releasenote:
+  text: |-
+    Allowed HorizontalPodAutoscaler conditions to optionally include the `observedGeneration` at the time the condition was recorded.
+  sigs:
+  - api-machinery
+  - apps
+  - autoscaling
+  - testing
+  kinds:
+  - cleanup
+  - api-change
+  areas:
+  - test
+  - code-generation

@@ -1,0 +1,11 @@
+pr: 139452
+pr_body: ""
+releasenote:
+  text: |-
+    Graduated `WatchCacheInitializationPostStartHook` to GA.
+  sigs:
+  - api-machinery
+  kinds:
+  - feature
+  areas:
+  - apiserver

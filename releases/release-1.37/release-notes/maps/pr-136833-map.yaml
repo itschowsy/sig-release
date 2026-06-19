@@ -1,0 +1,9 @@
+pr: 136833
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed a bug where a StatefulSet with the `OnDelete` update strategy never updated `Status.CurrentRevision` to match `Status.UpdateRevision` after all Pods were recreated with the new revision.
+  sigs:
+  - apps
+  kinds:
+  - bug

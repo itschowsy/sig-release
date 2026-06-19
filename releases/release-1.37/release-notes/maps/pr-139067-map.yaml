@@ -1,0 +1,12 @@
+pr: 139067
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Added a (delayed) warning that `kube-proxy`'s ipvs mode is deprecated since `v1.35` and users on newer Linux kernels should be using the nftables mode instead, which became GA in `v1.33`. For older kernel versions, users can use iptables, which is still the default.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - cleanup
+  - deprecation
+  areas:
+  - kubeadm

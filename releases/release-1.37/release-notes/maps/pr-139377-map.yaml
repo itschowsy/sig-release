@@ -1,0 +1,13 @@
+pr: 139377
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed a bug where disabling the `MemoryQoS` feature gate did not clear per-container `memory.high` cgroup values, causing containers to remain throttled at stale limits.
+  sigs:
+  - node
+  - testing
+  kinds:
+  - bug
+  areas:
+  - test
+  - kubelet

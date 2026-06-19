@@ -1,0 +1,16 @@
+pr: 139168
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed a `v1.34`+ regression handling containers with environment values set from Secret API objects containing binary non-utf8 data.
+  sigs:
+  - architecture
+  - node
+  - testing
+  kinds:
+  - bug
+  - api-change
+  - regression
+  areas:
+  - test
+  - kubelet

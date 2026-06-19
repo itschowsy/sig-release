@@ -1,0 +1,15 @@
+pr: 137116
+pr_body: ""
+releasenote:
+  text: |-
+    Promoted `apiserver_watch_events_total` and `apiserver_watch_events_sizes` to Beta.
+  sigs:
+  - api-machinery
+  - instrumentation
+  - testing
+  kinds:
+  - cleanup
+  areas:
+  - test
+  - apiserver
+  - stable-metrics

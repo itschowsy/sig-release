@@ -1,0 +1,11 @@
+pr: 138853
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Changed `kubeadm join` to return a clear error message when the TLS bootstrap kubeconfig has a current-context that does not appear in the contexts list, instead of panicking with a nil pointer dereference.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - bug
+  areas:
+  - kubeadm

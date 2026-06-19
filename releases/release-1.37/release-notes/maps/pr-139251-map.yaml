@@ -1,0 +1,15 @@
+pr: 139251
+pr_body: ""
+releasenote:
+  text: |-
+    Renamed signal enum keys in `cri-api`, which are now prefixed with `SIGNAL_` in the `api.proto` definition, to avoid conflicts with C++ macros. The wire format is unchanged.
+  sigs:
+  - apps
+  - node
+  - testing
+  kinds:
+  - cleanup
+  - api-change
+  areas:
+  - test
+  - kubelet

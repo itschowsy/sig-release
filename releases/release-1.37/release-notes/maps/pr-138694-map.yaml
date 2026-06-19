@@ -1,0 +1,13 @@
+pr: 138694
+pr_body: ""
+releasenote:
+  text: |-
+    Set the `KUBECTL_PATH` environment variable to the path of the `kubectl` binary when it executes a plugin.
+  sigs:
+  - cli
+  - testing
+  kinds:
+  - feature
+  areas:
+  - test
+  - kubectl

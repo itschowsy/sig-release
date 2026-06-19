@@ -1,0 +1,10 @@
+pr: 139025
+pr_body: ""
+releasenote:
+  text: |-
+    `kube-controller-manager`: Deferred syncing an HPA object in the HPA controller when the controller has not yet observed HPA status writes from the last time the object was synced.
+  sigs:
+  - apps
+  - autoscaling
+  kinds:
+  - feature

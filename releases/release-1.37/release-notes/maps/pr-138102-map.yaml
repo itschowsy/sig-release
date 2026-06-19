@@ -1,0 +1,11 @@
+pr: 138102
+pr_body: ""
+releasenote:
+  text: |-
+    Changed `kube-apiserver` to validate the `--advertise-address` IP when using `--endpoint-reconciler-type` `master-count` or `lease`, ensuring the specified IP address can be persisted to an Endpoints API object successfully.
+  sigs:
+  - api-machinery
+  kinds:
+  - bug
+  areas:
+  - apiserver

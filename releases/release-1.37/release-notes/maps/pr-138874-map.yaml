@@ -1,0 +1,11 @@
+pr: 138874
+pr_body: ""
+releasenote:
+  text: |-
+    Switched StorageVersionMigration to use merge patch instead of SSA.
+  sigs:
+  - api-machinery
+  - apps
+  - auth
+  kinds:
+  - cleanup

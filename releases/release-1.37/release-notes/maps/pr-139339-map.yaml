@@ -1,0 +1,12 @@
+pr: 139339
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Fixed kubeadm init phase `certs --dry-run` to correctly copy existing CA files.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - bug
+  - regression
+  areas:
+  - kubeadm

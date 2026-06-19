@@ -1,0 +1,11 @@
+pr: 138698
+pr_body: ""
+releasenote:
+  text: |-
+    Improved node health checks by verifying lease staleness with a live `GET` before marking nodes unhealthy, avoiding false positives from stale cache.
+  sigs:
+  - apps
+  - auth
+  - node
+  kinds:
+  - feature

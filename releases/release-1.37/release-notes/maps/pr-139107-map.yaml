@@ -1,0 +1,11 @@
+pr: 139107
+pr_body: ""
+releasenote:
+  text: |-
+    Applied `--field-selector` to pod metrics when invoking `kubectl top pod`.
+  sigs:
+  - cli
+  kinds:
+  - feature
+  areas:
+  - kubectl

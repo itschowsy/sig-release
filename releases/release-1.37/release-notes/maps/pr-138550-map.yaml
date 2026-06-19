@@ -1,0 +1,9 @@
+pr: 138550
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed regression in `kubectl` resource printing on bigger data sets (100+ rows).
+  sigs:
+  - cli
+  kinds:
+  - regression

@@ -1,0 +1,13 @@
+pr: 139121
+pr_body: ""
+releasenote:
+  text: |-
+    `kubelet`: Deferred the deprecation removal timeline for the configuration flags (and the related fallback behavior) from `v1.37` to `v1.38` to align with containerd `v1.7` support.
+  sigs:
+  - node
+  - testing
+  kinds:
+  - feature
+  areas:
+  - test
+  - kubelet

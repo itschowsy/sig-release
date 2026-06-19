@@ -1,0 +1,13 @@
+pr: 138908
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed the `kube-apiserver` to create metadata fields for create-via-update and created-via-apply requests like they are for create requests. `UID` and `resourceVersion` preconditions are still honored.
+  sigs:
+  - api-machinery
+  - testing
+  kinds:
+  - bug
+  areas:
+  - test
+  - apiserver

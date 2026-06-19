@@ -1,0 +1,9 @@
+pr: 138482
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed a metrics leak in the scheduler `PriorityQueue` by decrementing `UnschedulableReason` metrics when Pods were deleted from active or backoff queues, ensuring accurate reporting of unschedulable plugin reasons.
+  sigs:
+  - scheduling
+  kinds:
+  - bug

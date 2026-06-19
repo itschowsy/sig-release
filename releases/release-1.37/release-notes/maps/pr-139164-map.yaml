@@ -1,0 +1,11 @@
+pr: 139164
+pr_body: ""
+releasenote:
+  text: |-
+    Added the `+k8s:dependentRequired("siblingJSONName")` declarative validation tag. When the tagged field is set, the named sibling must also be set.
+  sigs:
+  - api-machinery
+  kinds:
+  - feature
+  areas:
+  - code-generation

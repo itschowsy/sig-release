@@ -1,0 +1,12 @@
+pr: 138643
+pr_body: ""
+releasenote:
+  text: |-
+    Added the scheduler extension point `PlacementFeasible` to allow early termination of the PodGroup scheduling cycle. This extension point is used by the GangScheduling plugin to stop evaluating pods once `minCount` becomes unsatisfiable.
+  sigs:
+  - scheduling
+  - testing
+  kinds:
+  - feature
+  areas:
+  - test

@@ -1,0 +1,15 @@
+pr: 139008
+pr_body: ""
+releasenote:
+  text: |-
+    Removed the Alpha admission plugin that validated that PodGroup resources reference an existing Workload and match the declared PodGroupTemplate spec.
+  sigs:
+  - api-machinery
+  - etcd
+  - scheduling
+  - testing
+  kinds:
+  - bug
+  areas:
+  - test
+  - apiserver

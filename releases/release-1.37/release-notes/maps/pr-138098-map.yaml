@@ -1,0 +1,9 @@
+pr: 138098
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed duplicated mount arguments in log string output from `MakeMountArgsSensitiveWithMountFlags`.
+  sigs:
+  - storage
+  kinds:
+  - bug

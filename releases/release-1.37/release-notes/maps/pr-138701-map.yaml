@@ -1,0 +1,11 @@
+pr: 138701
+pr_body: ""
+releasenote:
+  text: |-
+    Added an Alpha feature gate, `ConsistentListFromCacheSkipTimeoutFallback`. When enabled, `kube-apiserver` returns HTTP 429 for consistent LIST requests that cannot be served from the watch cache within the timeout window, instead of falling back to storage.
+  sigs:
+  - api-machinery
+  kinds:
+  - feature
+  areas:
+  - apiserver

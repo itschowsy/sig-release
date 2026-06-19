@@ -1,0 +1,12 @@
+pr: 138449
+pr_body: ""
+releasenote:
+  text: |-
+    `kubeadm`: Changed `kubeadm init` so that, when the default `admin.conf` and `super-admin.conf` paths are used, the files are loaded but in-memory kubeconfigs are constructed pointing to `InitConfiguration.localAPIEndpoint` instead of `ClusterConfiguration.controlPlaneEndpoint`. This resolved issues with delayed load balancers that are provisioned only after the first `kube-apiserver` instance starts.
+  sigs:
+  - cluster-lifecycle
+  kinds:
+  - bug
+  - cleanup
+  areas:
+  - kubeadm

@@ -1,0 +1,18 @@
+pr: 138488
+pr_body: ""
+releasenote:
+  text: |-
+    Promoted the DRA extended resource feature to GA in `v1.37`.
+  sigs:
+  - api-machinery
+  - apps
+  - node
+  - scheduling
+  - testing
+  kinds:
+  - api-change
+  - feature
+  areas:
+  - test
+  - kubelet
+  - code-generation

@@ -1,0 +1,12 @@
+pr: 138877
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed the build for `test/images/glibc-dns-testing`.
+  sigs:
+  - network
+  - testing
+  kinds:
+  - bug
+  areas:
+  - test
