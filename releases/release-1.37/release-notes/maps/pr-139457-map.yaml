@@ -1,0 +1,13 @@
+pr: 139457
+pr_body: ''
+releasenote:
+  text: Fixed a regression in the Job controller where deferred replacement Pod creation
+    due to pod-failure backoff could cause Job status updates to be rejected by the
+    apiserver. This could delay cleanup of terminated Pods and finalizer removal,
+    leaving Pods stuck in `Terminating` and Jobs with stale status until the backoff
+    elapsed.
+  sigs:
+  - apps
+  kinds:
+  - bug
+  - regression

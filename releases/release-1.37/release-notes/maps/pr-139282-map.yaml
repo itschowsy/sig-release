@@ -1,0 +1,9 @@
+pr: 139282
+pr_body: ''
+releasenote:
+  text: Graduated the `RelaxedServiceNameValidation` feature gate to GA.
+  sigs:
+  - apps
+  - network
+  kinds:
+  - feature

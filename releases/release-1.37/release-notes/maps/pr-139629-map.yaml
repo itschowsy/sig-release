@@ -1,0 +1,14 @@
+pr: 139629
+pr_body: ''
+releasenote:
+  text: Fixed `kube-proxy` to remove stale conntrack entries when a UDP Service no
+    longer has any serving endpoints, for example after scaling to zero. This prevents
+    previously established one-way UDP flows from being indefinitely blackholed to
+    deleted Pod IPs.
+  sigs:
+  - network
+  kinds:
+  - bug
+  - regression
+  areas:
+  - kube-proxy

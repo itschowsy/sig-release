@@ -1,0 +1,17 @@
+pr: 139520
+pr_body: ''
+releasenote:
+  text: 'ACTION REQUIRED: Removed the `GangScheduling` and `WorkloadAwarePreemption`
+    feature gates. Use the `GenericWorkload` feature gate to enable core workload-aware
+    scheduling functionality.'
+  sigs:
+  - api-machinery
+  - node
+  - scheduling
+  - testing
+  kinds:
+  - api-change
+  - feature
+  areas:
+  - test
+  - code-generation

@@ -1,0 +1,12 @@
+pr: 137290
+pr_body: ''
+releasenote:
+  text: Fixed a test bug where Pods created during test execution were not cleaned
+    up correctly, causing Pods to be leaked after test completion.
+  sigs:
+  - scheduling
+  - testing
+  kinds:
+  - cleanup
+  areas:
+  - test

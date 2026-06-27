@@ -1,0 +1,9 @@
+pr: 139731
+pr_body: ''
+releasenote:
+  text: Changed ResourceClaim config status to leave the `requests` field empty when
+    the configuration applies to all requests.
+  sigs:
+  - node
+  kinds:
+  - cleanup

@@ -1,0 +1,13 @@
+pr: 134860
+pr_body: ''
+releasenote:
+  text: Changed the apiserver service/proxy subresource to use EndpointSlices instead
+    of Endpoints when proxying to a Service. This change only affects clusters that
+    manually create Endpoints for a Service and have EndpointSlice mirroring disabled.
+  sigs:
+  - api-machinery
+  - network
+  kinds:
+  - cleanup
+  areas:
+  - apiserver
