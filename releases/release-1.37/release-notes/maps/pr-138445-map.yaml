@@ -1,7 +1,7 @@
 pr: 138445
 releasenote:
   text: |-
-    Fixed a scheduler cache bug where assumed Pods were not removed correctly from `PodGroupState`, after receiving a deletion timestamp.
+    Fixed a scheduler cache bug where assumed Pods were not removed correctly from `PodGroupState` after receiving a deletion timestamp.
   sigs:
   - scheduling
   kinds:

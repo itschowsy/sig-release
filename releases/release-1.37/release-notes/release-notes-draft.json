@@ -144,8 +144,8 @@
   },
   "135300": {
     "commit": "b2303f71cea085a2b25cbafdb8cce2b015644c6c",
-    "text": "Updated the `PodReadyToStartContainers` condition to include a diagnostic message when `status` is False, explaining why the pod sandbox is not ready (for example, `pod sandbox has no IP address` or `no pod sandbox exists`). This improves debuggability for Pods stuck in `ContainerCreating` without requiring access to node logs.",
-    "markdown": "Updated the `PodReadyToStartContainers` condition to include a diagnostic message when `status` is False, explaining why the pod sandbox is not ready (for example, `pod sandbox has no IP address` or `no pod sandbox exists`). This improves debuggability for Pods stuck in `ContainerCreating` without requiring access to node logs. ([#135300](https://github.com/kubernetes/kubernetes/pull/135300), [@harche](https://github.com/harche)) [SIG Node]",
+    "text": "Updated the `PodReadyToStartContainers` condition to include a diagnostic message when `status` is `False`, explaining why the pod sandbox is not ready (for example, `pod sandbox has no IP address` or `no pod sandbox exists`). This improves debuggability for Pods stuck in `ContainerCreating` without requiring access to node logs.",
+    "markdown": "Updated the `PodReadyToStartContainers` condition to include a diagnostic message when `status` is `False`, explaining why the pod sandbox is not ready (for example, `pod sandbox has no IP address` or `no pod sandbox exists`). This improves debuggability for Pods stuck in `ContainerCreating` without requiring access to node logs. ([#135300](https://github.com/kubernetes/kubernetes/pull/135300), [@harche](https://github.com/harche)) [SIG Node]",
     "author": "harche",
     "author_url": "https://github.com/harche",
     "pr_url": "https://github.com/kubernetes/kubernetes/pull/135300",
@@ -1364,8 +1364,8 @@
   },
   "138445": {
     "commit": "89bf57885306efc26011a5ce13b36662a4c73726",
-    "text": "Fixed a scheduler cache bug where assumed Pods were not removed correctly from `PodGroupState`, after receiving a deletion timestamp.",
-    "markdown": "Fixed a scheduler cache bug where assumed Pods were not removed correctly from `PodGroupState`, after receiving a deletion timestamp. ([#138445](https://github.com/kubernetes/kubernetes/pull/138445), [@iomarsayed](https://github.com/iomarsayed)) [SIG Scheduling]",
+    "text": "Fixed a scheduler cache bug where assumed Pods were not removed correctly from `PodGroupState` after receiving a deletion timestamp.",
+    "markdown": "Fixed a scheduler cache bug where assumed Pods were not removed correctly from `PodGroupState` after receiving a deletion timestamp. ([#138445](https://github.com/kubernetes/kubernetes/pull/138445), [@iomarsayed](https://github.com/iomarsayed)) [SIG Scheduling]",
     "author": "iomarsayed",
     "author_url": "https://github.com/iomarsayed",
     "pr_url": "https://github.com/kubernetes/kubernetes/pull/138445",
