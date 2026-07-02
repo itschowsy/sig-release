@@ -1,0 +1,9 @@
+pr: 139040
+pr_body: ""
+releasenote:
+  text: |-
+    Fixed a Dynamic Resource Allocation (DRA) scheduler bug that could assign mutually exclusive device partitions to multiple Pods. This affected DRA drivers using `SharedCounters` (`DRAPartitionableDevices`) together with multi-allocatable devices (`DRAConsumableCapacity`). Depending on the device and driver, the incorrect double-allocation could cause workload failures, device conflicts, crashes, or data loss.
+  sigs:
+  - node
+  kinds:
+  - bug

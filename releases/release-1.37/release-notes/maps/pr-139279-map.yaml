@@ -1,0 +1,16 @@
+pr: 139279
+releasenote:
+  text: |-
+    Updated PodGroup and PodGroupTemplate to allow modifying `minCount` after creation. Changes to a PodGroupTemplate do not affect existing PodGroups.
+  sigs:
+  - api-machinery
+  - scheduling
+  - testing
+  kinds:
+  - api-change
+  - feature
+  areas:
+  - test
+  - code-generation
+  - api-validation
+pr_body: ""

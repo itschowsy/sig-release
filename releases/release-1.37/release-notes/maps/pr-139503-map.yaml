@@ -1,0 +1,12 @@
+pr: 139503
+releasenote:
+  text: |-
+    Fixed a `kube-proxy` issue on Windows where transient HNS downtime during restart or recovery could cause incorrect LoadBalancer state reconciliation, resulting in duplicate LoadBalancer creation failures with `Cannot create a file when that file already exists. (0xb7)` errors.
+  sigs:
+  - network
+  - windows
+  kinds:
+  - bug
+  areas:
+  - kube-proxy
+pr_body: ""

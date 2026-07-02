@@ -1,0 +1,17 @@
+pr: 137964
+releasenote:
+  text: |-
+    Moved the `NodeSyncPeriod` field from `KubeCloudSharedConfiguration` to `CloudControllerManagerConfiguration.NodeLifecycleController.NodeMonitorPeriod`.
+  sigs:
+  - api-machinery
+  - apps
+  - cloud-provider
+  - instrumentation
+  - node
+  kinds:
+  - api-change
+  - feature
+  areas:
+  - cloudprovider
+  - code-generation
+pr_body: ""

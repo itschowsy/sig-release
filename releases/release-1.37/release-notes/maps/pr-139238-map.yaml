@@ -1,0 +1,12 @@
+pr: 139238
+releasenote:
+  text: |-
+    Optimized `kube-scheduler` performance for Pods with PersistentVolumeClaim mounts by processing only delta counts between scheduling cycles.
+  sigs:
+  - scheduling
+  - testing
+  kinds:
+  - feature
+  areas:
+  - test
+pr_body: ""

@@ -1,0 +1,15 @@
+pr: 139743
+releasenote:
+  text: |-
+    Renamed the PodGroup condition `PodGroupScheduled` to `PodGroupInitiallyScheduled` to clarify that the condition is set only after a PodGroup is first scheduled successfully and may not reflect the PodGroup's current scheduling state.
+  sigs:
+  - api-machinery
+  - scheduling
+  - testing
+  kinds:
+  - cleanup
+  - api-change
+  areas:
+  - test
+  - code-generation
+pr_body: ""

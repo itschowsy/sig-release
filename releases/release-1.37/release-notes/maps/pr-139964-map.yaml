@@ -1,0 +1,12 @@
+pr: 139964
+releasenote:
+  text: |-
+    Reverted the `cri-api` `KeyValue` value field to its pre-`v1.34` JSON encoding behavior for compatibility with earlier releases.
+  sigs:
+  - node
+  kinds:
+  - bug
+  - regression
+  areas:
+  - kubelet
+pr_body: ""

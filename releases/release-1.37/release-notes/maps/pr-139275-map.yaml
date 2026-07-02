@@ -1,0 +1,13 @@
+pr: 139275
+releasenote:
+  text: |-
+    Fixed a `kubelet` issue where Pods with `subPath` mounts could become stuck in an error loop after FUSE or GlusterFS network filesystem disruptions.
+  sigs:
+  - node
+  - storage
+  - testing
+  kinds:
+  - bug
+  areas:
+  - test
+pr_body: ""

@@ -1,0 +1,13 @@
+pr: 139968
+releasenote:
+  text: |-
+    Added metrics for informer activity in `kube-apiserver`.
+  sigs:
+  - api-machinery
+  - testing
+  kinds:
+  - feature
+  areas:
+  - test
+  - apiserver
+pr_body: ""
